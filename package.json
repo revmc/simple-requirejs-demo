@@ -1,0 +1,23 @@
+{
+  "name": "simple-requirejs-demo",
+  "version": "1.0.0",
+  "description": "A simple demo to illustrate basic require.js functionality",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revmc/simple-requirejs-demo.git"
+  },
+  "keywords": [
+    "require",
+    "module"
+  ],
+  "author": "shaque",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/revmc/simple-requirejs-demo/issues"
+  },
+  "homepage": "https://github.com/revmc/simple-requirejs-demo#readme"
+}
