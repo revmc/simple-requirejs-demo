@@ -1,11 +1,13 @@
 define(function() {
 
+	var britishPoundsToDollarsRate = 0.81;
+		
 	return {
 
-		convertCurrency: function() {
-			return "$100";
+		convertCurrency: function(dollars) {
+			return dollars * britishPoundsToDollarsRate;
 		}
-		
+
 	}
 
 });
