@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "jshint **.js",
-    "serve": "browser-sync start --server --files '*.html, *.js, *.css'",
+    "serve": "browser-sync start --server --files '*.html, */**.js, *.css'",
     "build:sass": "node-sass -r sass -o .",
     "watch:sass": "npm run build:sass && npm run build:sass -- -w"
   },
